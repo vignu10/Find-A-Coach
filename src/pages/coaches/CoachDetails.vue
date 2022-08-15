@@ -3,8 +3,8 @@
     <base-card
       ><h2>
         {{ fullName }}
-        <h3>${{ rate }}</h3>
-      </h2></base-card
+      </h2>
+      <h3>$ {{ rate }}</h3></base-card
     >
   </section>
   <section>
