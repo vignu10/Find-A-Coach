@@ -1,5 +1,7 @@
 <template>
-  <span class="badge" :class="type"> {{ text }} </span>
+  <span class="badge" :class="type">
+    {{ text }}
+  </span>
 </template>
 
 <script>
@@ -8,9 +10,9 @@ export default {
   computed: {
     text() {
       return this.title.toUpperCase();
-    },
-  },
-};
+    }
+  }
+}
 </script>
 
 <style scoped>
